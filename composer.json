@@ -27,9 +27,47 @@
 	"require": {
 		"php": ">=5.3.10",
 		"croogo/croogo": "~2.0",
-		"cakephp/cakephp": "~2.4"
+		"cakephp/cakephp": "~2.4",
+		"liamkeily/node-images": "master",
+		"liamkeily/node-attachments": "master",
+		"liamkeily/menu-links": "master",
+		"liamkeily/node-events": "master",
+		"liamkeily/el-finder": "master",
+		"liamkeily/tinymce": "master",
+		"liamkeily/croogo-banners": "master"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "3.7.*@dev"
-	}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/liamkeily/NodeImages"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/liamkeily/NodeAttachments"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/liamkeily/MenuLinks"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/liamkeily/NodeEvents"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/liamkeily/CroogoElFinder"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/liamkeily/CroogoTinymce"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/liamkeily/CroogoBanners"
+		}
+
+	]
 }
